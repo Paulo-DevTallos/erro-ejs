@@ -10,7 +10,7 @@ app.set('view engine', 'ejs')
 
 
 // Definindo os arquivos públicos
-// app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 
 // rotas
